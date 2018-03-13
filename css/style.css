@@ -1,0 +1,120 @@
+*{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+          box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+canvas {
+	display:block;
+	}
+        
+
+
+body {
+  background: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.form {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 5%;
+  }
+
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.tab-group li a {
+  
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  transition: .5s ease;
+}
+.tab-group li a:hover {
+  background: green;
+  color: #ffffff;
+}
+ 
+ 
+
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+
+input {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 10%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  transition: border-color .25s ease; 
+  transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus{
+  outline: none;
+  border-color: green;
+}
+
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+
+.button {
+	
+  padding:5px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: rgba(0,255,0,0.5);
+  color: #ffffff;
+  transition: all 0.5s ease;
+  width: 100%;
+}
+.button:hover{
+  background: rgba(0,255,0,1);
+}
